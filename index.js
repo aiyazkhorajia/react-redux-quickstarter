@@ -219,6 +219,7 @@ var SignUp = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.lazy(function () {
 });
 function BasicExample() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.HashRouter, {
+    basename: "/",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react__WEBPACK_IMPORTED_MODULE_0__.Suspense, {
       fallback: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "Loading..."
