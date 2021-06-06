@@ -27,6 +27,35 @@ Following are the functionalities and modules are used.
 - SignOut
 - Clean UI
 
+## Directory Structure
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📂font
+ ┃ ┗ 📂images
+ ┣ 📂components
+ ┃ ┣ 📜SignInForm.js
+ ┃ ┗ 📜SignUpForm.js
+ ┣ 📂helpers
+ ┃ ┗ 📜axios.js
+ ┣ 📂pages
+ ┃ ┣ 📜SignIn.js
+ ┃ ┗ 📜SignUp.js
+ ┣ 📂store
+ ┃ ┣ 📂actions
+ ┃ ┃ ┣ 📜authActions.js
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┣ 📂reducers
+ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┣ 📜signInReducer.js
+ ┃ ┃ ┗ 📜signUpReducer.js
+ ┃ ┣ 📜constants.js
+ ┃ ┗ 📜index.js
+ ┣ 📜App.css
+ ┣ 📜App.js
+ ┣ 📜App.test.js
+ ┣ 📜index.html
+ ┗ 📜index.js
+
 ## Tech
 
 React Quick Starter uses a number of open source packages :
