@@ -198,7 +198,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! Components/PrivateRoute */ "./src/components/PrivateRoute.js");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
@@ -224,26 +223,24 @@ function BasicExample() {
       fallback: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "Loading..."
       }),
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Switch, {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
-          component: SignIn,
-          path: "/",
-          exact: true,
-          type: "public"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
-          component: SignIn,
-          path: "/signin",
-          type: "public"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
-          component: SignUp,
-          path: "/signup",
-          type: "public"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
-          component: Dashboard,
-          path: "/home",
-          type: "protected"
-        })]
-      }), ' ']
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
+        component: SignIn,
+        path: "/",
+        exact: true,
+        type: "public"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
+        component: SignIn,
+        path: "/signin",
+        type: "public"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
+        component: SignUp,
+        path: "/signup",
+        type: "public"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Components_PrivateRoute__WEBPACK_IMPORTED_MODULE_1__.default, {
+        component: Dashboard,
+        path: "/home",
+        type: "protected"
+      })]
     })
   });
 }
