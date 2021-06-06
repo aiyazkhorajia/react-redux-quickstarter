@@ -218,7 +218,7 @@ var SignUp = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.lazy(function () {
   return Promise.all(/*! import() */[__webpack_require__.e("vendors-node_modules_axios_index_js"), __webpack_require__.e("src_pages_SignUp_js")]).then(__webpack_require__.bind(__webpack_require__, /*! Pages/SignUp */ "./src/pages/SignUp.js"));
 });
 function BasicExample() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.BrowserRouter, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.HashRouter, {
     basename: "MISSING_ENV_VAR".PUBLIC_URL,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react__WEBPACK_IMPORTED_MODULE_0__.Suspense, {
       fallback: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
