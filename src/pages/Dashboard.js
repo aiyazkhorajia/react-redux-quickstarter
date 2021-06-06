@@ -18,7 +18,7 @@ const Dashboard = () => {
     membersView = <p>Please wait...</p>;
   } else if (data && data.data) {
     membersView = (
-      <div className="row row-cols-1 row-cols-md-4 g-4">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
         {data.data.map((member) => (
           <div className="col" key={member.id}>
             <div className="card">
