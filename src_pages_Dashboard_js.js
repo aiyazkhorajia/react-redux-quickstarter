@@ -115,7 +115,7 @@ var Dashboard = function Dashboard() {
     });
   } else if (data && data.data) {
     membersView = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      className: "row row-cols-1 row-cols-md-4 g-4",
+      className: "row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4",
       children: data.data.map(function (member) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
           className: "col",
